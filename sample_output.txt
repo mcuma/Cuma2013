@@ -1,0 +1,25 @@
+
+Accelerator Kernel Timing data
+/uufs/chpc.utah.edu/common/home/u0101881/zhdanov/grmag/fwd/grav_fwd.c
+  gr_fun_gpu
+    245: region entered 1 time
+        time(us): total=50,027
+                  kernels=49,051 data=565
+        246: kernel launched 1 times
+            grid: [552]  block: [128]
+            time(us): total=49,051 max=49,051 min=49,051 avg=49,051
+/uufs/chpc.utah.edu/common/home/u0101881/zhdanov/grmag/fwd/grav_fwd.c
+  main
+    615: region entered 1 time
+        time(us): total=285,377 init=232,976 region=52,401
+                  data=1,902
+        w/o init: total=52,401 max=52,401 min=52,401 avg=52,401
+CPU kernel seq elapsed time = 0.001938 sec
+CPU kernel vec elapsed time = 0.001013 sec
+CPU kernel vec omp elapsed time = 0.001866 sec
+CPU kernel seq opt elapsed time = 0.000974 sec
+CPU kernel seq opt OMP elapsed time = 0.000974 sec
+CPU kernel gpu on cpu switch elapsed time = 0.004057 sec
+CPU kernel gpu on cpu elapsed time = 0.003999 sec
+GPU data copyin time = 0.000235 sec
+GPU kernel elapsed time = 0.000050 sec
